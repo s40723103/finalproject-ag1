@@ -2,7 +2,6 @@
   position: relative;
 }
 header{
-  background: #ccc;
   padding: 20px;
 }
 confmenu
@@ -201,6 +200,9 @@ background-color: white;
 width: 195px;
 }
 body {
-  margin-bottom: 120px;
+ background-image:url("https://www.tapeciarnia.pl/tapety/normalne/tapeta-welsh-corgi-pembroke-idacy-za-bankami.jpg");	
+ background-position: 0px;
+ background-size: 100%;
+ margin-top: 0px;
 }
 
