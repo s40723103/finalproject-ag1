@@ -21,8 +21,11 @@
 <v t="leo.20180827201621.6" a="E"><vh>body</vh>
 <v t="leo.20180827201621.7" a="E"><vh>reveal div</vh>
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
-<v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
+<v t="leo.20180827201621.9"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190110212708.1" a="E"><vh>123</vh>
+<v t="leo.20190110212708.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20190110194110.1" a="E"><vh>Question</vh>
 <v t="leo.20190110194220.1"><vh>封面投影片內容</vh></v>
@@ -141,8 +144,6 @@ Created by [KMOLab](http://lab.kmol.info/)
 &lt;/small&gt;
 
 [2018 Fall 分組網誌](./../blog/index.html)
-
-
 </t>
 <t tx="leo.20180827201621.11">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -328,62 +329,28 @@ make.start()
 <t tx="leo.20180827201621.9">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
+</t>
+<t tx="leo.20190110194110.1">@others
     &lt;/script&gt;
 &lt;/section&gt;
 
 
 						
 </t>
-<t tx="leo.20190110194110.1">&lt;section data-markdown&gt;
+<t tx="leo.20190110194110.2"></t>
+<t tx="leo.20190110194218.1"></t>
+<t tx="leo.20190110194220.1"></t>
+<t tx="leo.20190110201740.1"></t>
+<t tx="leo.20190110201857.1"></t>
+<t tx="leo.20190110202053.1">
+
+</t>
+<t tx="leo.20190110212708.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
 </t>
-<t tx="leo.20190110194110.2">## 兩個人同時用近端並同時上傳檔案，但有合併衝突怎麼辦?
+<t tx="leo.20190110212708.2">## 123
 
-### 先將.htm檔拖曳到SciTE文字編輯器，找出衝突點，並刪除頭、尾與接合處(=======)後，儲存並重新進入近端，將之轉成Generapage，最後git  add .、git commit、git push。
-
-
-</t>
-<t tx="leo.20190110194218.1">## 為什麼協同反而無法取得正確近端?
-
-### 因為協同後，需要pull request才能真正取得倉儲之近端，在指令馬中打git pull，即可將近端遠端統合，便可把資料push上去。
-
-
-</t>
-<t tx="leo.20190110194220.1">## 單機與網路差別?
-
-### 單機之資料庫只供本機使用，網路之資料庫為透過區域網路設定可供多人共用
-</t>
-<t tx="leo.20190110201740.1">## 網頁爆掉如何救回?
-
-### 檢視問題點在哪行程式碼，將之移除，並重新檢視、送出，以下為指令:
-Git log(查看從最近到最遠得提交日誌)
-Git checkout 7碼(丟棄工作區文檔的修改)
-Git status(查看當前git倉儲狀態)
-Git diff(查看修改的文檔內容)
-Git status(查看當前git倉儲狀態)
-Git stash(將寫到一半的代碼從工作區拿走存起來)
-Git status(查看當前git倉儲狀態)
-
-
-</t>
-<t tx="leo.20190110201857.1">## 為什麼更改字型但是網頁爆掉?
-
-### 由於前後自行更改大小不一，因而造成網頁爆掉，需要到SciTE去刪除設定大小的前後(head3)即可救回網頁。 P.S.建議不要隨便更改字型大小
-
-
-</t>
-<t tx="leo.20190110202053.1">## 為什麼倉儲會突然找不到網頁，但在遠端還可以看到?
-
-### 有可能是因為檔案中又包住另一個git clone 下來的資料，造成程式碼衝突，因而，使得變成404網頁。
-處理方式:建議不要將檔案連續包夾在同一個資料夾裡面。
-
-
-</t>
+### 123</t>
 </tnodes>
 </leo_file>
